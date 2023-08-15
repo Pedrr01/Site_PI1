@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: white;
+    font-family:'Baloo Bhaijaan 2', cursive;
+    color:  #717f7f;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin: 15px;
+    width: 49px;
+    height: 49px;
+}
+.titulo{
+    margin-top: 10px;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botão{
+    width: 350px;
+    color: white;
+    background-color: #5cc6ba;
+    border: 10px solid #5cc6ba;
+    border-radius: 12px;
+    cursor: pointer;
+}
+

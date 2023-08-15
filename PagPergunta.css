@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: white;
+    font-family:'Baloo Bhaijaan 2', cursive;
+    color:  #717f7f;
+
+}
+
+nav{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 49px;
+    height: 49px;
+}
+.titulo{
+    margin-top: 10px;
+}
+
+.perguntas{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#botoes{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px 25px;
+}
+
+.botao{
+    width: 350px;
+    color: white;
+    background-color: #5cc6ba;
+    border: 10px solid #5cc6ba;
+    border-radius: 12px;
+    cursor: pointer;
+}

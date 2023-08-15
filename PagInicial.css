@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: #5cc6ba;
+    font-family:'Baloo Bhaijaan 2', cursive;
+    color: white;
+}
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    background-color: white;
+    color: #717f7f;
+    border: 10px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.botoes{
+    padding: 10px;
+}
