@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: #717f7f;
+}
+
+nav {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 49px;
+    height: 49px;
+}
+
+.titulo {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.curso {
+    text-align: left; /* Para alinhar o h3 à esquerda */
+}
+
+.cursos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Para centralizar os cursos horizontalmente */
+    align-items: center; /* Para centralizar os cursos verticalmente */
+}
+
+.curso-item {
+    margin: 10px; /* Espaçamento entre os cursos */
+    text-align: center; /* Centraliza o texto dos cursos */
+}
+
+.imgcurso {
+    width: 250px;
+    height: 150px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+}
+

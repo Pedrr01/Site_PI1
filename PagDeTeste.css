@@ -4,33 +4,34 @@
     box-sizing: border-box;
 } 
 
-body{
+body {
     background-color: white;
-    font-family:'Baloo Bhaijaan 2', cursive;
-    color:  #717f7f;
-
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: #717f7f;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
 }
-.logo{
+
+.logo {
     margin: 15px;
     width: 49px;
     height: 49px;
 }
-.titulo{
+
+.titulo {
     margin-top: 10px;
 }
 
-.conteiner{
+.conteiner {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.texto{
+.texto {
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -38,13 +39,17 @@ nav{
     justify-content: center;
 }
 
-.teste{
+p{
+    text-align: center;
+}
+
+.teste {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.botão{
+.botão {
     width: 350px;
     color: white;
     background-color: #5cc6ba;
@@ -53,3 +58,25 @@ nav{
     cursor: pointer;
 }
 
+/* tela para tablets */
+@media (max-width: 768px) {
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .botão {
+        width: 250px;
+    }
+}
+/* tela para smartphones  */
+@media (max-width: 480px) {
+    .logo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .botão {
+        width: 200px;
+    }
+}
